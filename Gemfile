@@ -39,6 +39,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 #Slim's core syntax is guided by one thought: "What's the minimum required to make this work".
 gem 'slim'
 
+# An IRB alternative and runtime developer console. To help debug.
+gem 'pry', '~> 0.12.2'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
