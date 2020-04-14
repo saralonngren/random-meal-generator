@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'welcome/index'
+  get '/index', to: 'app#index'
+  get '/random_meal', to: 'app#random_meal'
 
-  root 'welcome#index'
+  root 'app#index'
 end

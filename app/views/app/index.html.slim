@@ -1,0 +1,7 @@
+.page-center
+  = image_tag("hamburger.png", class: "image-css")
+  .h1.text
+    | Feeling hungry? 
+  .p.text
+    | Lets have a look in what you can prepare for today!
+  = link_to "Find meal!", random_meal_path, class: 'generate_button'
